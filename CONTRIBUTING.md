@@ -1,111 +1,99 @@
-# Contributing
-
-Hi there! We're excited you've got ideas to improve topics and collections. You're helping the community discover valuable information.
-
-This project adheres to the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code.
-
-There are a few ways you can contribute:
-
-- Improving an existing topic or collection
-- Curating a new topic or collection
-
-As you write content, check out the [Style Guide](./docs/styleguide.md) to learn what each field means, and how they should be formatted. Following the style guide will improve the chances of your contribution being accepted.
-
-Note: Updates won't immediately appear once we've merged your PR. We pull in these changes regularly to GitHub.
-
-## Improving an existing topic or collection
-
-If a topic or collection already exists, it will be listed in its respective directory:
-
-- [topics/](https://github.com/github/explore/tree/master/topics)
-- [collections/](https://github.com/github/explore/tree/master/collections)
-
-The topic or collection name should match its URL, e.g. `https://github.com/topics/rails` corresponds to the [`topics/rails` directory](https://github.com/github/explore/tree/master/topics/rails).
-
-To make an improvement, please **open a pull request** with your proposed changes:
-
-### Update the image
-
-To update the image, simply replace the image inside the directory for the topic or collection.
-
-### Update text and links
-
-To update text and links, edit the `index.md` inside the topic or collection's directory. These files are formatted using a combination of [Front Matter](https://jekyllrb.com/docs/frontmatter/) and simple body content.
-
-For **topics**, you'll notice that, in examples like the topic "[algorithm](https://raw.githubusercontent.com/github/explore/master/topics/algorithm/index.md)," data like the its canonical URL, Wikipedia URL, or display name are called out in key-value pairs; while its detailed description is accounted for in the body of the document.
-
-_/topics/algorithm/index.md_:
-```
----
-aliases: algorithms
-display_name: Algorithm
-short_description: Algorithms are self-contained sequences that carry out a variety of tasks.
-topic: algorithm
-wikipedia_url: https://en.wikipedia.org/wiki/Algorithm
----
-Algorithms are detailed sets of guidelines created for a computer program to complete tasks efficiently and thoroughly.
-```
-
----
-
-Similarly, **collections** like "[music](https://raw.githubusercontent.com/github/explore/master/collections/music/index.md)" call out things like their author and display name in Front Matter variables -- with a detailed description in the body of the document. Most importantly, though, collections identify their individual collection items in [a YAML list](https://en.wikipedia.org/wiki/YAML#Basic_components) for the key "items."
-
-_/collections/music/index.md_:
-
-```
----
-items:
- - beetbox/beets
- - scottschiller/SoundManager2
- - CreateJS/SoundJS
- - musescore/MuseScore
- - tomahawk-player/tomahawk
- - cashmusic/platform
- - mopidy/mopidy
- - AudioKit/AudioKit
- - Soundnode/soundnode-app
- - gillesdemey/Cumulus
- - metabrainz/picard
- - overtone/overtone
- - samaaron/sonic-pi
-display_name: Music
-created_by: jonrohan
----
-Drop the code bass with these musically themed repositories.
-```
-
----
-
-The [pull request template](./.github/PULL_REQUEST_TEMPLATE.md) also provides guidance on the information you need to include.
-
-**Please fill out the pull request template completely.** If you do not fill out the template, your PR will be closed.
-
-## Curating a new topic or collection
-
-If a topic or collection is not yet curated, it will NOT be listed in its respective directory.
-
-We are likely to consider suggestions to curate a topic or collection that is valuable to GitHub's community. Valuable topics, for example, include those that are already [widely used by repositories](https://help.github.com/articles/classifying-your-repository-with-topics/), or a topic that currently lacks important information. When suggesting content, please consider how to make your contribution broadly useful and relevant to others, rather than serving a specific use case.
-
-Please note that all suggestions must adhere to GitHub's [Community Guidelines](https://help.github.com/articles/github-community-guidelines/) and [Terms of Service](https://help.github.com/articles/github-terms-of-service/). Per our Terms of Service, [you are responsible](https://help.github.com/articles/github-terms-of-service/#d-user-generated-content) for the content you contribute, and you must have the rights to use it.
-
-To propose a new topic or collection, please **open a pull request** with your proposed additions. The [API docs](./docs/API.md) and [style guide](./docs/styleguide.md) provide guidance on the information you need to include and how it should be formatted.
-
-This repository includes [a list of the most-used GitHub topics that don't yet have extra context](topics-todo.md). If your pull request adds one of these topics, please update topics-todo.md so that the topic is checked (marked complete).
-
-**Please fill out the pull request template completely.** If you do not fill out the template, your pull request will be closed.
-
-## Guidelines
-
-* Avoid conflicts of interest. Maintainers of a project cannot add a topic or collection for their own project. If a topic is popular enough to warrant inclusion, someone else will add or improve it.
-
-## Running tests
-
-There are some lint tests in place to ensure each topic is formatted in the way we expect. Travis
-CI will run the tests automatically. If you want to run the tests yourself locally, you will need
-Ruby and Bundler installed.
-
-You can run the tests using:
-
-```bash
-script/cibuild
-```
+#EXTM3U
+#EXTINF:-1,FR| W9 HD
+http://enndy.live:2015/live/bicakci/bicakci/3046.ts
+#EXTINF:-1,FR| USHUAIA
+http://enndy.live:2015/live/bicakci/bicakci/3045.ts
+#EXTINF:-1,FR| TV5 MONDE
+http://enndy.live:2015/live/bicakci/bicakci/3044.ts
+#EXTINF:-1,FR| TV BREIZH HD
+http://enndy.live:2015/live/bicakci/bicakci/3043.ts
+#EXTINF:-1,FR| TREK HD
+http://enndy.live:2015/live/bicakci/bicakci/3042.ts
+#EXTINF:-1,FR| TF1 SERIES FILMS HD
+http://enndy.live:2015/live/bicakci/bicakci/3040.ts
+#EXTINF:-1,FR| TF1 HD
+http://enndy.live:2015/live/bicakci/bicakci/3039.ts
+#EXTINF:-1,FR| TEVA HD
+http://enndy.live:2015/live/bicakci/bicakci/3038.ts
+#EXTINF:-1,FR| TELETOON   HD
+http://enndy.live:2015/live/bicakci/bicakci/3037.ts
+#EXTINF:-1,FR| TCM CINEMA HD
+http://enndy.live:2015/live/bicakci/bicakci/3036.ts
+#EXTINF:-1,FR| SEASONS
+http://enndy.live:2015/live/bicakci/bicakci/3035.ts
+#EXTINF:-1,FR| RTL9 HD
+http://enndy.live:2015/live/bicakci/bicakci/3034.ts
+#EXTINF:-1,FR| PLANETE HD
+http://enndy.live:2015/live/bicakci/bicakci/3033.ts
+#EXTINF:-1,FR| PLANETE CI HD
+http://enndy.live:2015/live/bicakci/bicakci/3032.ts
+#EXTINF:-1,FR| OCS MAX HD
+http://enndy.live:2015/live/bicakci/bicakci/3031.ts
+#EXTINF:-1,FR| OCS GEANTS HD
+http://enndy.live:2015/live/bicakci/bicakci/3030.ts
+#EXTINF:-1,FR| OCS CITY
+http://enndy.live:2015/live/bicakci/bicakci/3029.ts
+#EXTINF:-1,FR| OCS CHOC HD
+http://enndy.live:2015/live/bicakci/bicakci/3028.ts
+#EXTINF:-1,FR| NT1 HD
+http://enndy.live:2015/live/bicakci/bicakci/3027.ts
+#EXTINF:-1,FR| NRJ12 HD
+http://enndy.live:2015/live/bicakci/bicakci/3026.ts
+#EXTINF:-1,FR| NATIONAL GEOGRAPHIC HD
+http://enndy.live:2015/live/bicakci/bicakci/3025.ts
+#EXTINF:-1,FR| NATIONAL GEO WILD
+http://enndy.live:2015/live/bicakci/bicakci/3024.ts
+#EXTINF:-1,FR| M6 HD
+http://enndy.live:2015/live/bicakci/bicakci/3023.ts
+#EXTINF:-1,FR| iTELE HD
+http://enndy.live:2015/live/bicakci/bicakci/3022.ts
+#EXTINF:-1,FR| INFOSPORT
+http://enndy.live:2015/live/bicakci/bicakci/3021.ts
+#EXTINF:-1,FR| HD 1
+http://enndy.live:2015/live/bicakci/bicakci/3020.ts
+#EXTINF:-1,FR| GULLI  HD
+http://enndy.live:2015/live/bicakci/bicakci/3019.ts
+#EXTINF:-1,FR| GOLF  HD
+http://enndy.live:2015/live/bicakci/bicakci/3018.ts
+#EXTINF:-1,FR| FRANCE O HD
+http://enndy.live:2015/live/bicakci/bicakci/3017.ts
+#EXTINF:-1,FR| FRANCE 5 HD
+http://enndy.live:2015/live/bicakci/bicakci/3016.ts
+#EXTINF:-1,FR| FRANCE 4
+http://enndy.live:2015/live/bicakci/bicakci/3015.ts
+#EXTINF:-1,FR| FRANCE 3
+http://enndy.live:2015/live/bicakci/bicakci/3014.ts
+#EXTINF:-1,FR| FRANCE 2
+http://enndy.live:2015/live/bicakci/bicakci/3013.ts
+#EXTINF:-1,FR| FOOT 24
+http://enndy.live:2015/live/bicakci/bicakci/3012.ts
+#EXTINF:-1,FR| EUROSPORT 2 HD
+http://enndy.live:2015/live/bicakci/bicakci/3011.ts
+#EXTINF:-1,FR| EQUIPE TV
+http://enndy.live:2015/live/bicakci/bicakci/3010.ts
+#EXTINF:-1,FR| EQUIDIA LIVE HD
+http://enndy.live:2015/live/bicakci/bicakci/3009.ts
+#EXTINF:-1,FR| DISNEY XD
+http://enndy.live:2015/live/bicakci/bicakci/3008.ts
+#EXTINF:-1,FR| DISNEY JUNIOR
+http://enndy.live:2015/live/bicakci/bicakci/3007.ts
+#EXTINF:-1,FR| DISNEY CINEMA HD
+http://enndy.live:2015/live/bicakci/bicakci/3006.ts
+#EXTINF:-1,FR| DISCOVERY HD
+http://enndy.live:2015/live/bicakci/bicakci/3005.ts
+#EXTINF:-1,FR| CSTAR
+http://enndy.live:2015/live/bicakci/bicakci/3004.ts
+#EXTINF:-1,FR| COMEDIE   HD
+http://enndy.live:2015/live/bicakci/bicakci/3003.ts
+#EXTINF:-1,FR| CINE PLUS EMOTION HD
+http://enndy.live:2015/live/bicakci/bicakci/3002.ts
+#EXTINF:-1,FR| CINE FX
+http://enndy.live:2015/live/bicakci/bicakci/3001.ts
+#EXTINF:-1,FR| CINE   FRISSON
+http://enndy.live:2015/live/bicakci/bicakci/3000.ts
+#EXTINF:-1,FR| CINE   FAMIZ
+http://enndy.live:2015/live/bicakci/bicakci/2999.ts
+#EXTINF:-1,FR| CINE    POLAR
+http://enndy.live:2015/live/bicakci/bicakci/2998.ts
+#EXTINF:-1,FR| CHERIE 25
+http://enndy.live:2015/live/bicakci/bicakci/2997.ts
